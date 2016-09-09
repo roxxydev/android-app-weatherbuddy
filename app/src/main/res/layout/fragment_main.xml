@@ -1,0 +1,85 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ProgressBar
+            android:id="@+id/fgmt_main_pg"
+            style="?android:attr/progressBarStyleInverse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:id="@+id/fgmt_main_tv_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/fgmt_main_tv_label_weather_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="6dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/fgmt_main_iv"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+        <TextView
+            android:id="@+id/fgmt_main_tv_weather_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/fgmt_main_tv_citycountry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/fgmt_main_tv_temperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/fgmt_main_tv_humidity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/fgmt_main_tv_pressure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/fgmt_main_tv_wind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/fgmt_main_tv_cloudiness"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"/>
+
+</LinearLayout>

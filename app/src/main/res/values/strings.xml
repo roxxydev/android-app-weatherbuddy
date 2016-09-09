@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Weather Buddy</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="label_weather_condition">Weather Condition:</string>
+    <string name="label_location">Location:</string>
+    <string name="label_temperature">Temperature:</string>
+    <string name="label_humidity">Humidity:</string>
+    <string name="label_pressure">Pressure:</string>
+    <string name="label_wind">Wind:</string>
+    <string name="label_cloudiness">Cloudiness:</string>
+
+    <string name="dlg_btn_ok_label">OK</string>
+    <string name="dlg_btn_cancel_label">CANCEL</string>
+    <string name="dlg_btn_yes_label">YES</string>
+    <string name="dlg_btn_no_label">NO</string>
+
+    <string name="dlg_msg_loc_disabled">
+        No location providers are enabled on your phone. Please enable your location provider and
+        make sure you are connected to the internet.
+    </string>
+
+    <string name="msg_api_prob">Could not get weather forecast.</string>
+
+</resources>
